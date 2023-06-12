@@ -1,4 +1,3 @@
-
 /**
  * Checks if an array is sorted in ascending order.
  * @param array - The array to check.
