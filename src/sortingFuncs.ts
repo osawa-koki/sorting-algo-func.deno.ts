@@ -1,6 +1,7 @@
 import bubbleSort from "./sortingFuncs/bubbleSort.ts";
 import selectionSort from "./sortingFuncs/selectionSort.ts";
 import insertionSort from "./sortingFuncs/insertionSort.ts";
+import mergeSort from "./sortingFuncs/mergeSort.ts";
 
 const sortingFuncs = [
   {
@@ -14,6 +15,10 @@ const sortingFuncs = [
   {
     name: "Insertion Sort",
     func: insertionSort,
+  },
+  {
+    name: "Merge Sort",
+    func: mergeSort,
   },
 ];
 
