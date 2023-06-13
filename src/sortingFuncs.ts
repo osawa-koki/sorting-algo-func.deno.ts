@@ -3,6 +3,7 @@ import selectionSort from "./sortingFuncs/selectionSort.ts";
 import insertionSort from "./sortingFuncs/insertionSort.ts";
 import mergeSort from "./sortingFuncs/mergeSort.ts";
 import quickSort from "./sortingFuncs/quickSort.ts";
+import heapSort from "./sortingFuncs/heapSort.ts";
 
 const sortingFuncs = [
   {
@@ -24,6 +25,10 @@ const sortingFuncs = [
   {
     name: "Quick Sort",
     func: quickSort,
+  },
+  {
+    name: "Heap Sort",
+    func: heapSort,
   },
 ];
 
